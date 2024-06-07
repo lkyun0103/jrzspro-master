@@ -12,11 +12,11 @@ window.addEventListener('scroll', () => {
   if (window.pageYOffset - height > 800) {
     if (!headerEl.classList.contains('sticky')) {
       headerEl.classList.add('sticky')
-      logoImg.src = './images/ccst-logo.png'
+      logoImg.src = './images/jrzspro-logo-w.png'
     }
   } else {
     headerEl.classList.remove('sticky')
-    logoImg.src = './images/ccst-logo-w.png'
+    logoImg.src = './images/jrzspro-logo-w.png'
   }
 
   // 显示返回顶部
